@@ -28,7 +28,10 @@ TimeCounterTest: TimeCounter
 TimeCounter:
 	g++ -c TimeCounter.cpp -std=c++11
 
+PriorityQueue:
+	g++ -o PriorityQueue PriorityQueue.cpp -std=c++11
+
 clean:
-	rm BubbleSort SelectSort InsertSort ShellSort MergeSortTop QuickSort
-	rm TimeCounterTest
 	rm *.o
+	rm BubbleSort SelectSort InsertSort ShellSort MergeSortTop QuickSort PriorityQueue
+	rm TimeCounterTest
